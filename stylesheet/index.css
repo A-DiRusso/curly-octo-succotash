@@ -1,1 +1,15 @@
 /* CSS */
+/* paul irish box padding fix always use!!!!! */
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
